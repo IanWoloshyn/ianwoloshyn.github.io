@@ -1,0 +1,1492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ian J. Woloshyn - Computer Engineering graduate specializing in Embedded Systems, FPGA Design, Controls Engineering, and Microelectronic Fabrication">
+    <meta name="author" content="Ian J. Woloshyn">
+    <title>Ian J. Woloshyn | Computer Engineering</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Skip to Content (Accessibility) -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Ian Woloshyn</div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#community" class="nav-link">Community</a></li>
+                <li><a href="notes.html" class="nav-link">Notes</a></li>
+                <li><a href="#contact" class="nav-link nav-link-cta">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">Ian J. Woloshyn</h1>
+                <p class="hero-subtitle">B.S. Computer Engineering Technology</p>
+                <p class="hero-tagline">FPGA Design &amp; Embedded Systems | Low-Level Programming | Controls &amp; Automation | Microelectronic Fabrication</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="assets/Ian_Woloshyn_Resume.docx" class="btn btn-secondary" download>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                        Resume
+                    </a>
+                </div>
+            </div>
+            <!-- Scroll indicator outside hero-content to avoid CSS transform containing-block bug -->
+            <div class="scroll-indicator">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="body-large objective-text">Computer Engineering graduate (RIT, May 2026). Primarily interested in FPGA development, embedded systems, and low-level hardware/software integration.</p>
+                        <p>Most of my academic work has been in hardware design and embedded programming. In ESD I, I built a custom VHDL servo controller IP core, integrated it with a Nios II soft processor on the DE1-SoC via Avalon MM interfaces in Platform Designer, and wrote the bare-metal C ISR driver. I have also worked with FreeRTOS on STM32, designed FIR/IIR digital filters in MATLAB, and done hands-on PMOS transistor fabrication in the RIT cleanroom.</p>
+                        <p>On the industry side, I built and deployed PLC ladder logic and HMI systems at RS Automation. At Johnson &amp; Johnson I worked on enterprise IT automation and AI tooling - a different kind of systems work, but the problem-solving approach is the same. I am most interested in roles involving firmware, digital logic design, or FPGA/embedded development.</p>
+
+                        <h3 class="subhead mt-lg">Education</h3>
+                        <div class="education-item">
+                            <div class="education-header">
+                                <strong>Rochester Institute of Technology</strong>
+                                <span class="education-location">Rochester, NY</span>
+                            </div>
+                            <p class="education-detail">Bachelor of Science in Computer Engineering Technology</p>
+                            <p class="education-detail"><strong>GPA:</strong> 3.5/4.0 | <strong>Graduating:</strong> May 2026</p>
+                            <p class="education-detail text-tertiary mt-xs"><strong>Related Courses:</strong> ESD I, RTOS, DSP, Signals, Systems & Transforms, Electronic Devices, Microcontroller Systems</p>
+                        </div>
+                    </div>
+                    
+                    <div class="about-visual">
+                        <div class="profile-image-container">
+                            <img src="assets/project_photo.jpg" alt="Ian J. Woloshyn - Computer Engineering Graduate" class="profile-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title">Professional Experience</h2>
+                
+                <div class="experience-timeline">
+                    <!-- RS Automation -->
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <div class="experience-company">
+                                <h3 class="company-name">RS Automation, LLC</h3>
+                                <p class="company-location">Albion, NY</p>
+                            </div>
+                            <div class="experience-period">September 2025 - Present</div>
+                        </div>
+                        <p class="experience-title">Controls Engineer Intern</p>
+                        <ul class="experience-list">
+                            <li>Developed and tested PLC ladder logic and HMI interfaces (FactoryTalk, Studio 5000) for automated processes</li>
+                            <li>Supported integration and troubleshooting of control panels and instrumentation for OEM process equipment</li>
+                            <li>Designed and built an internal website to streamline quoting, parts management, and documentation workflows</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-badge">PLC</span>
+                            <span class="tech-badge">Ladder Logic</span>
+                            <span class="tech-badge">HMI Design</span>
+                            <span class="tech-badge">FactoryTalk</span>
+                            <span class="tech-badge">Studio 5000</span>
+                            <span class="tech-badge">Web Development</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Johnson & Johnson -->
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <div class="experience-company">
+                                <h3 class="company-name">Johnson & Johnson</h3>
+                                <p class="company-location">Raritan, NJ</p>
+                            </div>
+                            <div class="experience-period">February - August 2024</div>
+                        </div>
+                        <p class="experience-title">Enterprise Architecture CO-OP</p>
+                        <ul class="experience-list">
+                            <li><strong>Tissue Lab Automation POC:</strong> Developed and managed a Proof of Concept to semi-automate manual checklist-driven video processes, enhancing operational efficiency and reducing errors</li>
+                            <li><strong>TS Copilot Project:</strong> Researched J&J's XENA CI/CD platform to identify integration options for TS Copilot, a Generative AI tech support assistant, evaluating features to enhance deployment efficiency</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-badge">Enterprise Automation</span>
+                            <span class="tech-badge">CI/CD</span>
+                            <span class="tech-badge">Generative AI</span>
+                            <span class="tech-badge">Digital Transformation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                
+                <!-- Embedded Memory Project -->
+                <div class="project-card featured">
+                    <div class="project-header">
+                        <h3 class="project-title">Custom RAM IP Core with Byte-Enable</h3>
+                        <p class="project-date">April 2025</p>
+                    </div>
+                    <p class="project-course">Course: Embedded Systems Design I</p>
+                    <p class="project-description">Designed and implemented a custom VHDL RAM IP core (4K x 32-bit) with byte-enable functionality for Nios II processor integration via Avalon memory-mapped interface in Platform Designer. Developed comprehensive VHDL testbench validating full-word, half-word, and individual byte operations across all 4096 addresses. Verified C integration using polling, interrupts, and peripheral output (LED/UART).</p>
+                    
+                    <div class="tech-stack">
+                        <span class="tech-badge">VHDL</span>
+                        <span class="tech-badge">RAM Design</span>
+                        <span class="tech-badge">Avalon Interface</span>
+                        <span class="tech-badge">Nios II</span>
+                        <span class="tech-badge">Testbench</span>
+                        <span class="tech-badge">C</span>
+                        <span class="tech-badge">Platform Designer</span>
+                    </div>
+
+                    <div class="project-details">
+                        <h4 class="feature-title">Key Features</h4>
+                        <ul class="feature-list">
+                            <li>4096 x 32-bit synchronous RAM with independent byte-lane control</li>
+                            <li>Active-low byte-enable signals for selective byte writes</li>
+                            <li>Comprehensive testbench with 20,480+ write/read cycles</li>
+                            <li>Full integration with Nios II via Avalon MM slave interface</li>
+                            <li>Validated memory operations: full-word, half-word, and byte-level access</li>
+                        </ul>
+
+                        <button class="btn btn-secondary btn-sm code-toggle" data-target="code-ram-vhdl">
+                            View VHDL Code
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        
+                        <div class="code-section" id="code-ram-vhdl">
+                            <div class="code-tabs">
+                                <button class="code-tab active" data-tab="ram-main">raminfr_be.vhd</button>
+                                <button class="code-tab" data-tab="ram-tb">testbench</button>
+                                <button class="code-tab" data-tab="ram-c">C Integration</button>
+                            </div>
+                            
+                            <div class="code-content active" id="ram-main">
+<pre><code class="language-vhdl">-------------------------------------------------------------------------
+-- Ian Woloshyn
+-- CPET 561 Embedded System Design 1
+-- Lab 6 raminfr_be.vhd
+-- March 26th 2025
+-------------------------------------------------------------------------
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE ieee.std_logic_unsigned.ALL;
+
+ENTITY raminfr IS
+PORT(
+    clk               : IN std_logic;
+    reset_n           : IN std_logic;
+<span class="ca" data-tooltip="Byte-Enable Port - Active-low, 4-bit signal. Each bit controls one byte lane (bits 7:0, 15:8, 23:16, 31:24). A 0 means that byte is written; a 1 means it is held. This is how the Avalon MM bus does sub-word writes.">1</span>    writebyteenable_n : IN std_logic_vector(3 DOWNTO 0);
+    address           : IN std_logic_vector(11 DOWNTO 0);
+    writedata         : IN std_logic_vector(31 DOWNTO 0);
+    
+    readdata          : OUT std_logic_vector(31 DOWNTO 0)
+);
+END ENTITY raminfr;
+
+ARCHITECTURE rtl OF raminfr IS
+<span class="ca" data-tooltip="Split Byte Banks - Instead of one 32-bit array, four separate 8-bit arrays (RAM0-RAM3) are used. This lets each byte lane be written independently based on writebyteenable_n, which is how byte-enable RAM is inferred in FPGAs.">2</span>    TYPE ram_type IS ARRAY (4095 DOWNTO 0) OF std_logic_vector (7 DOWNTO 0);
+    SIGNAL RAM0 : ram_type;  -- Byte 0
+    SIGNAL RAM1 : ram_type;  -- Byte 1
+    SIGNAL RAM2 : ram_type;  -- Byte 2
+    SIGNAL RAM3 : ram_type;  -- Byte 3
+    SIGNAL read_addr : std_logic_vector(11 DOWNTO 0);
+
+BEGIN
+    RamBlock : PROCESS(clk)
+    BEGIN
+        IF (clk'event AND clk = '1') THEN
+            IF (reset_n = '0') THEN
+                read_addr <= (OTHERS => '0');
+                FOR i IN 0 TO 4095 LOOP
+                    RAM0(i) <= (OTHERS => '0');
+                    RAM1(i) <= (OTHERS => '0');
+                    RAM2(i) <= (OTHERS => '0');
+                    RAM3(i) <= (OTHERS => '0');
+                END LOOP;
+            ELSE
+<span class="ca" data-tooltip="Byte-Enable Write Logic - Each IF block checks one bit of writebyteenable_n. A 0 on that bit enables writing to that byte lane only. All four can fire in the same clock cycle for a full 32-bit write.">3</span>                -- Independent byte-enable control
+                IF (writebyteenable_n(0) = '0') THEN
+                    RAM0(conv_integer(address)) <= writedata(7 DOWNTO 0);
+                END IF;
+                IF (writebyteenable_n(1) = '0') THEN
+                    RAM1(conv_integer(address)) <= writedata(15 DOWNTO 8);
+                END IF;
+                IF (writebyteenable_n(2) = '0') THEN
+                    RAM2(conv_integer(address)) <= writedata(23 DOWNTO 16);
+                END IF;
+                IF (writebyteenable_n(3) = '0') THEN
+                    RAM3(conv_integer(address)) <= writedata(31 DOWNTO 24);
+                END IF;
+            END IF;
+<span class="ca" data-tooltip="Registered Read Address - The address is captured on the clock edge, not the data. This means reads have one cycle of latency, which is required for FPGA block RAM inference. Combinational read would prevent BRAM synthesis.">4</span>            read_addr <= address;
+        END IF;
+    END PROCESS RamBlock;
+
+<span class="ca" data-tooltip="Concurrent Read Output - Four separate concurrent signal assignments reassemble the byte banks into a 32-bit word. Runs outside any process, so it updates immediately whenever read_addr changes.">5</span>    -- Concurrent read assignment
+    readdata(7 DOWNTO 0)   <= RAM0(conv_integer(read_addr));
+    readdata(15 DOWNTO 8)  <= RAM1(conv_integer(read_addr));
+    readdata(23 DOWNTO 16) <= RAM2(conv_integer(read_addr));
+    readdata(31 DOWNTO 24) <= RAM3(conv_integer(read_addr));
+
+END ARCHITECTURE rtl;</code></pre>
+                            </div>
+                            
+                            <div class="code-content" id="ram-tb">
+<pre><code class="language-vhdl">-------------------------------------------------------------------------
+-- Ian Woloshyn
+-- CPET 561 Embedded System Design 1
+-- Lab 6 raminfr_be Testbench
+-- March 26th 2025
+-------------------------------------------------------------------------
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE ieee.std_logic_unsigned.ALL;
+USE ieee.numeric_std.ALL;
+
+ENTITY raminfr_be_tb IS
+END ENTITY raminfr_be_tb;
+
+ARCHITECTURE Behavioral OF raminfr_be_tb IS
+
+    COMPONENT raminfr IS
+    PORT(
+        clk               : IN  std_logic;
+        reset_n           : IN  std_logic;
+        writebyteenable_n : IN  std_logic_vector(3 DOWNTO 0);
+        address           : IN  std_logic_vector(11 DOWNTO 0);
+        writedata         : IN  std_logic_vector(31 DOWNTO 0);
+        readdata          : OUT std_logic_vector(31 DOWNTO 0)
+    );
+    END COMPONENT;
+
+    -- Signals
+    SIGNAL clk               : std_logic := '0';
+    SIGNAL reset_n           : std_logic := '0';
+    SIGNAL writebyteenable_n : std_logic_vector(3 DOWNTO 0) := "1111";
+    SIGNAL address           : std_logic_vector(11 DOWNTO 0) := (OTHERS => '0');
+    SIGNAL writedata         : std_logic_vector(31 DOWNTO 0) := (OTHERS => '0');
+    SIGNAL readdata          : std_logic_vector(31 DOWNTO 0);
+
+    CONSTANT CLK_PERIOD : time := 20 ns;
+
+BEGIN
+
+    -- UUT Instantiation
+    uut: raminfr PORT MAP (
+        clk               => clk,
+        reset_n           => reset_n,
+        writebyteenable_n => writebyteenable_n,
+        address           => address,
+        writedata         => writedata,
+        readdata          => readdata
+    );
+
+<span class="ca" data-tooltip="Clock Generation - Toggles every 10 ns to produce a 20 ns period (50 MHz), matching the DE1-SoC system clock. VHDL testbenches generate clocks this way since there is no physical oscillator in simulation.">6</span>    -- 50 MHz clock
+    clk_proc: PROCESS
+    BEGIN
+        clk <= '0'; wait for CLK_PERIOD / 2;
+        clk <= '1'; wait for CLK_PERIOD / 2;
+    END PROCESS;
+
+    -- Stimulus
+    stim_proc: PROCESS
+    BEGIN
+        -- Reset
+        reset_n <= '0';
+        wait for 40 ns;
+        reset_n <= '1';
+        wait for 40 ns;
+
+        -- 1) Full Word test: writebyteenable_n = "0000" (all bytes enabled)
+        FOR i IN 0 TO 4095 LOOP
+            address           <= std_logic_vector(to_unsigned(i, 12));
+            writebyteenable_n <= "0000";
+            writedata         <= x"DEADBEEF";
+            wait for CLK_PERIOD;
+        END LOOP;
+        FOR i IN 0 TO 4095 LOOP
+            address           <= std_logic_vector(to_unsigned(i, 12));
+            writebyteenable_n <= "1111";  -- read only
+            wait for CLK_PERIOD;
+<span class="ca" data-tooltip="Self-Checking Assert - Compares readdata against the expected value each iteration. If it fails, VHDL prints the address and flags ERROR severity. This makes the testbench automatically catch bugs across all 4096 addresses without manual inspection.">7</span>            assert readdata = x"DEADBEEF"
+                report "FAIL: Full Word @ addr " & integer'image(i)
+                severity ERROR;
+        END LOOP;
+        report "PASS: Full Word test (4096 addresses)";
+
+        -- 2) Top Half Word: writebyteenable_n = "0011" (bytes 3:2 enabled)
+        --    Pre-fill all with 0x00000000, then write top 2 bytes only
+        FOR i IN 0 TO 4095 LOOP
+            address           <= std_logic_vector(to_unsigned(i, 12));
+            writebyteenable_n <= "0000";
+            writedata         <= x"00000000";
+            wait for CLK_PERIOD;
+        END LOOP;
+        FOR i IN 0 TO 4095 LOOP
+            address           <= std_logic_vector(to_unsigned(i, 12));
+            writebyteenable_n <= "0011";
+            writedata         <= x"AAAAAAAA";
+            wait for CLK_PERIOD;
+        END LOOP;
+        FOR i IN 0 TO 4095 LOOP
+            address           <= std_logic_vector(to_unsigned(i, 12));
+            writebyteenable_n <= "1111";
+            wait for CLK_PERIOD;
+            assert readdata = x"AAAA0000"
+                report "FAIL: Top Half Word @ addr " & integer'image(i)
+                severity ERROR;
+        END LOOP;
+        report "PASS: Top Half Word test (4096 addresses)";
+
+        -- 3) Bottom Half Word: writebyteenable_n = "1100" (bytes 1:0 enabled)
+        FOR i IN 0 TO 4095 LOOP
+            address           <= std_logic_vector(to_unsigned(i, 12));
+            writebyteenable_n <= "0000";
+            writedata         <= x"00000000";
+            wait for CLK_PERIOD;
+        END LOOP;
+        FOR i IN 0 TO 4095 LOOP
+            address           <= std_logic_vector(to_unsigned(i, 12));
+            writebyteenable_n <= "1100";
+            writedata         <= x"BBBBBBBB";
+            wait for CLK_PERIOD;
+        END LOOP;
+        FOR i IN 0 TO 4095 LOOP
+            address           <= std_logic_vector(to_unsigned(i, 12));
+            writebyteenable_n <= "1111";
+            wait for CLK_PERIOD;
+            assert readdata = x"0000BBBB"
+                report "FAIL: Bottom Half Word @ addr " & integer'image(i)
+                severity ERROR;
+        END LOOP;
+        report "PASS: Bottom Half Word test (4096 addresses)";
+
+        -- 4) Individual Byte 0 (bits 7:0): writebyteenable_n = "1110"
+        FOR i IN 0 TO 4095 LOOP
+            address           <= std_logic_vector(to_unsigned(i, 12));
+            writebyteenable_n <= "0000";
+            writedata         <= x"00000000";
+            wait for CLK_PERIOD;
+        END LOOP;
+        FOR i IN 0 TO 4095 LOOP
+            address           <= std_logic_vector(to_unsigned(i, 12));
+            writebyteenable_n <= "1110";
+            writedata         <= x"CCCCCCCC";
+            wait for CLK_PERIOD;
+        END LOOP;
+        FOR i IN 0 TO 4095 LOOP
+            address           <= std_logic_vector(to_unsigned(i, 12));
+            writebyteenable_n <= "1111";
+            wait for CLK_PERIOD;
+            assert readdata = x"000000CC"
+                report "FAIL: Byte 0 @ addr " & integer'image(i)
+                severity ERROR;
+        END LOOP;
+        report "PASS: Byte 0 test (4096 addresses)";
+
+        -- 5) Individual Byte 1 (bits 15:8): writebyteenable_n = "1101"
+        FOR i IN 0 TO 4095 LOOP
+            address           <= std_logic_vector(to_unsigned(i, 12));
+            writebyteenable_n <= "0000";
+            writedata         <= x"00000000";
+            wait for CLK_PERIOD;
+        END LOOP;
+        FOR i IN 0 TO 4095 LOOP
+            address           <= std_logic_vector(to_unsigned(i, 12));
+            writebyteenable_n <= "1101";
+            writedata         <= x"DDDDDDDD";
+            wait for CLK_PERIOD;
+        END LOOP;
+        FOR i IN 0 TO 4095 LOOP
+            address           <= std_logic_vector(to_unsigned(i, 12));
+            writebyteenable_n <= "1111";
+            wait for CLK_PERIOD;
+            assert readdata = x"0000DD00"
+                report "FAIL: Byte 1 @ addr " & integer'image(i)
+                severity ERROR;
+        END LOOP;
+        report "PASS: Byte 1 test (4096 addresses)";
+
+        -- 6) Individual Byte 2 (bits 23:16): writebyteenable_n = "1011"
+        FOR i IN 0 TO 4095 LOOP
+            address           <= std_logic_vector(to_unsigned(i, 12));
+            writebyteenable_n <= "0000";
+            writedata         <= x"00000000";
+            wait for CLK_PERIOD;
+        END LOOP;
+        FOR i IN 0 TO 4095 LOOP
+            address           <= std_logic_vector(to_unsigned(i, 12));
+            writebyteenable_n <= "1011";
+            writedata         <= x"EEEEEEEE";
+            wait for CLK_PERIOD;
+        END LOOP;
+        FOR i IN 0 TO 4095 LOOP
+            address           <= std_logic_vector(to_unsigned(i, 12));
+            writebyteenable_n <= "1111";
+            wait for CLK_PERIOD;
+            assert readdata = x"00EE0000"
+                report "FAIL: Byte 2 @ addr " & integer'image(i)
+                severity ERROR;
+        END LOOP;
+        report "PASS: Byte 2 test (4096 addresses)";
+
+        -- 7) Individual Byte 3 (bits 31:24): writebyteenable_n = "0111"
+        FOR i IN 0 TO 4095 LOOP
+            address           <= std_logic_vector(to_unsigned(i, 12));
+            writebyteenable_n <= "0000";
+            writedata         <= x"00000000";
+            wait for CLK_PERIOD;
+        END LOOP;
+        FOR i IN 0 TO 4095 LOOP
+            address           <= std_logic_vector(to_unsigned(i, 12));
+            writebyteenable_n <= "0111";
+            writedata         <= x"FFFFFFFF";
+            wait for CLK_PERIOD;
+        END LOOP;
+        FOR i IN 0 TO 4095 LOOP
+            address           <= std_logic_vector(to_unsigned(i, 12));
+            writebyteenable_n <= "1111";
+            wait for CLK_PERIOD;
+            assert readdata = x"FF000000"
+                report "FAIL: Byte 3 @ addr " & integer'image(i)
+                severity ERROR;
+        END LOOP;
+        report "PASS: Byte 3 test (4096 addresses)";
+
+        report "ALL TESTS PASSED - 28,672 read/write operations validated";
+        wait;
+    END PROCESS;
+
+END ARCHITECTURE Behavioral;</code></pre>
+                            </div>
+
+                            <div class="code-content" id="ram-c">
+<pre><code class="language-c">//-------------------------------------------------------------------------
+//-- Ian Woloshyn
+//-- CPET 561 Embedded System Design 1
+//-- Lab 6 Part 2 - Byte-Enable RAM C Integration
+//-- March 24th, 2025
+//-------------------------------------------------------------------------
+
+#include "io.h"
+#include &lt;stdio.h&gt;
+#include "system.h"
+#include "alt_types.h"
+#include "sys/alt_irq.h"
+
+typedef unsigned char   uint8;
+typedef unsigned short  uint16;
+typedef unsigned long   uint32;
+
+<span class="ca" data-tooltip="Memory-Mapped Pointer - Casting the Avalon MM base address to a volatile pointer lets C read/write the peripheral like a normal array. volatile tells the compiler not to cache the value in a register, since the hardware can change it at any time.">8</span>volatile uint32 *leds    = (uint32 *) LEDS_BASE;
+volatile uint32 *buttons = (uint32 *) KEY1_BASE;
+volatile uint8   stop_test = 0;
+
+<span class="ca" data-tooltip="Interrupt-Driven Stop - KEY1 triggers this ISR mid-test. Setting a volatile flag (stop_test) is the safe way to communicate from interrupt context to the main loop without race conditions.">9</span>// ISR: KEY1 press stops the test
+void key_ISR(void* context) {
+    stop_test = 1;
+    *(buttons + 3) = 0xFF;  // Clear interrupts
+}
+
+<span class="ca" data-tooltip="Pointer Width Controls Access Size - Casting the base address to uint8*, uint16*, or uint32* tells the CPU to issue 8, 16, or 32-bit bus transactions. The byte-enable hardware then activates only the corresponding lanes on each write.">10</span>// 8-bit byte-accessible RAM test
+void byte_accessible_ram_test(uint32 start_addr, uint32 num_bytes, uint8 test_data) {
+    uint8* addr = (uint8*) start_addr;
+    for (uint32 i = 0; i &lt; num_bytes &amp;&amp; !stop_test; i++) {
+        addr[i] = test_data;
+    }
+    for (uint32 i = 0; i &lt; num_bytes &amp;&amp; !stop_test; i++) {
+        if (addr[i] != test_data) {
+            *leds = 0xFF;  // Error: light all LEDs
+            return;
+        }
+    }
+}
+
+// 16-bit half-word accessible RAM test
+void word_accessible_ram_test(uint32 start_addr, uint32 num_words, uint16 test_data) {
+    uint16* addr = (uint16*) start_addr;
+    for (uint32 i = 0; i &lt; num_words &amp;&amp; !stop_test; i++) {
+        addr[i] = test_data;
+    }
+    for (uint32 i = 0; i &lt; num_words &amp;&amp; !stop_test; i++) {
+        if (addr[i] != test_data) {
+            *leds = 0xFF;
+            return;
+        }
+    }
+}
+
+// 32-bit word accessible RAM test
+void dword_accessible_ram_test(uint32 start_addr, uint32 num_dwords, uint32 test_data) {
+    uint32* addr = (uint32*) start_addr;
+    for (uint32 i = 0; i &lt; num_dwords &amp;&amp; !stop_test; i++) {
+        addr[i] = test_data;
+    }
+    for (uint32 i = 0; i &lt; num_dwords &amp;&amp; !stop_test; i++) {
+        if (addr[i] != test_data) {
+            *leds = 0xFF;
+            return;
+        }
+    }
+}
+
+int main() {
+    uint32 start_addr   = RAMINFR_BE_0_BASE;
+    uint32 num_dwords   = 4096;
+    uint32 num_words    = 8192;
+    uint32 num_bytes    = 16384;
+    uint32 test_data_32 = 0x12345678;
+    uint16 test_data_16 = 0xABCD;
+    uint8  test_data_8  = 0x7F;
+
+    alt_ic_isr_register(KEY_IRQ_INTERRUPT_CONTROLLER_ID, KEY_IRQ, key_ISR, NULL, NULL);
+
+    printf("Starting RAM Tests. Press KEY1 to stop.\n");
+
+    printf("Running 8-bit test...\n");
+    byte_accessible_ram_test(start_addr, num_bytes, test_data_8);
+
+    if (!stop_test) {
+        printf("Running 16-bit test...\n");
+        word_accessible_ram_test(start_addr, num_words, test_data_16);
+    }
+
+    if (!stop_test) {
+        printf("Running 32-bit test...\n");
+        dword_accessible_ram_test(start_addr, num_dwords, test_data_32);
+    }
+
+    printf("RAM Test Complete.\n");
+    *leds = stop_test ? 0xFF : 0x00;  // All LEDs on = stopped early
+
+    while (1);
+    return 0;
+}</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Servo Motor Controller -->
+                <div class="project-card featured">
+                    <div class="project-header">
+                        <h3 class="project-title">Servo Motor Controller with PWM & FSM</h3>
+                        <p class="project-date">March 2025</p>
+                    </div>
+                    <p class="project-course">Course: Embedded Systems Design I</p>
+                    <p class="project-description">Designed and implemented a custom VHDL servo controller IP core with 4-state FSM (SWEEP_LEFT, SWEEP_RIGHT, INT_LEFT, INT_RIGHT), PWM signal generation, and Avalon memory-mapped slave interface. Integrated with Nios II processor using interrupt-driven C handlers for real-time angle control via pushbuttons, with 7-segment display feedback showing min/max angles.</p>
+                    
+                    <div class="tech-stack">
+                        <span class="tech-badge">VHDL</span>
+                        <span class="tech-badge">FSM</span>
+                        <span class="tech-badge">PWM</span>
+                        <span class="tech-badge">Nios II</span>
+                        <span class="tech-badge">Avalon Interface</span>
+                        <span class="tech-badge">C</span>
+                        <span class="tech-badge">ISR</span>
+                        <span class="tech-badge">Platform Designer</span>
+                    </div>
+
+                    <div class="project-details">
+                        <h4 class="feature-title">Key Features</h4>
+                        <ul class="feature-list">
+                            <li>4-state FSM with automatic sweep between configurable min/max angles</li>
+                            <li>20ms PWM period with 1-2ms pulse width control for servo positioning</li>
+                            <li>Interrupt-driven communication with Nios II processor</li>
+                            <li>Real-time angle adjustment via pushbutton and switch inputs</li>
+                            <li>7-segment display feedback for visual angle monitoring</li>
+                        </ul>
+
+                        <button class="btn btn-secondary btn-sm code-toggle" data-target="code-servo">
+                            View VHDL Code
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+
+                        <div class="code-section" id="code-servo">
+                            <div class="code-tabs">
+                                <button class="code-tab active" data-tab="servo-vhdl">lab5.vhd (FSM)</button>
+                                <button class="code-tab" data-tab="servo-c">Lab5C.c (ISR)</button>
+                            </div>
+
+                            <div class="code-content active" id="servo-vhdl">
+<pre><code class="language-vhdl">-------------------------------------------------------------------------
+-- Ian Woloshyn
+-- CPET 561 Embedded System Design 1
+-- Lab 5
+-- March 5th 2025
+-------------------------------------------------------------------------
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity lab5 is
+    port (
+        clk            : in  std_logic;
+        reset_n        : in  std_logic;
+        write_enable   : in  std_logic;
+        write_address  : in  std_logic;
+        write_data     : in  std_logic_vector(31 downto 0);
+        pwm_out        : out std_logic;
+        irq_signal     : out std_logic
+    );
+end entity Lab5;
+
+architecture Behavioral of Lab5 is
+<span class="ca" data-tooltip="FSM State Encoding - 4 states in 2 bits. SWEEP_LEFT/RIGHT control direction; INT_LEFT/RIGHT pause and assert IRQ to the CPU.">1</span>    -- State machine states
+    constant SWEEP_LEFT  : std_logic_vector(1 downto 0) := "00";
+    constant SWEEP_RIGHT : std_logic_vector(1 downto 0) := "01";
+    constant INT_LEFT    : std_logic_vector(1 downto 0) := "10";
+    constant INT_RIGHT   : std_logic_vector(1 downto 0) := "11";
+
+    signal state_reg     : std_logic_vector(1 downto 0);
+    signal state_next    : std_logic_vector(1 downto 0);
+    signal period_counter: unsigned(19 downto 0) := b"00000000000000000000";
+    signal angle_count   : unsigned(31 downto 0) := x"0000C350"; -- 50,000
+    signal min_angle_reg : unsigned(31 downto 0) := x"0000C350"; -- 50,000
+    signal max_angle_reg : unsigned(31 downto 0) := x"000186A0"; -- 100,000
+
+    constant ANGLE_STEP  : unsigned(31 downto 0) := x"000001F4"; -- 500
+
+begin
+<span class="ca" data-tooltip="State Register - Clocked D flip-flop. Captures state_next on every rising clock edge; async active-low reset returns to SWEEP_RIGHT.">2</span>    -- State Register
+    state_reg_proc: process(clk, reset_n)
+    begin
+        if reset_n = '0' then
+            state_reg <= SWEEP_RIGHT;
+        elsif rising_edge(clk) then
+            state_reg <= state_next;
+        end if;
+    end process;
+
+<span class="ca" data-tooltip="Next-State Logic - Combinational process (no clock). Evaluates angle_count vs. limits and write_enable to decide the next state.">3</span>    -- Next State Logic
+    next_state_proc: process(state_reg, angle_count, min_angle_reg, max_angle_reg, write_enable)
+    begin
+        state_next <= state_reg; -- Default: hold state
+        case state_reg is
+            when SWEEP_RIGHT =>
+                if angle_count >= max_angle_reg then
+                    state_next <= INT_RIGHT;
+                end if;
+            when INT_RIGHT =>
+                if write_enable = '1' then
+                    state_next <= SWEEP_LEFT;
+                end if;
+            when SWEEP_LEFT =>
+                if angle_count <= min_angle_reg then
+                    state_next <= INT_LEFT;
+                end if;
+            when INT_LEFT =>
+                if write_enable = '1' then
+                    state_next <= SWEEP_RIGHT;
+                end if;
+            when others =>
+                state_next <= SWEEP_RIGHT;
+        end case;
+    end process;
+
+<span class="ca" data-tooltip="Avalon MM Write Interface - Nios II CPU writes min/max angle over the Avalon memory-mapped bus. Address bit 0 selects min (0) or max (1).">4</span>    -- Register Logic: update min/max from Nios II writes
+    register_proc: process(clk, reset_n)
+    begin
+        if reset_n = '0' then
+            min_angle_reg <= x"0000C350";
+            max_angle_reg <= x"000186A0";
+        elsif rising_edge(clk) then
+            if write_enable = '1' then
+                if write_address = '0' then
+                    min_angle_reg <= unsigned(write_data);
+                else
+                    max_angle_reg <= unsigned(write_data);
+                end if;
+            end if;
+        end if;
+    end process;
+
+<span class="ca" data-tooltip="PWM Period Counter - Wraps at 1,000,000 cycles (50 MHz / 1M = 50 Hz = 20 ms). Defines the servo PWM period.">5</span>    -- 20ms Period Counter (1,000,000 cycles at 50 MHz)
+    period_counter_proc: process(clk, reset_n)
+    begin
+        if reset_n = '0' then
+            period_counter <= (others => '0');
+        elsif rising_edge(clk) then
+            if period_counter >= x"000F4240" then
+                period_counter <= (others => '0');
+            else
+                period_counter <= period_counter + 1;
+            end if;
+        end if;
+    end process;
+
+    -- Angle Counter: increments/decrements by ANGLE_STEP each 20ms period
+    angle_counter_proc: process(clk, reset_n)
+    begin
+        if reset_n = '0' then
+            angle_count <= min_angle_reg;
+        elsif rising_edge(clk) then
+            case state_reg is
+                when SWEEP_RIGHT =>
+                    if period_counter = 0 then
+                        angle_count <= angle_count + ANGLE_STEP;
+                    end if;
+                when SWEEP_LEFT =>
+                    if period_counter = 0 then
+                        angle_count <= angle_count - ANGLE_STEP;
+                    end if;
+                when others =>
+                    angle_count <= angle_count;
+            end case;
+        end if;
+    end process;
+
+    -- IRQ: assert when entering interrupt states
+    irq_proc: process(clk, reset_n)
+    begin
+        if reset_n = '0' then
+            irq_signal <= '0';
+        elsif rising_edge(clk) then
+            if state_reg = INT_LEFT or state_reg = INT_RIGHT then
+                irq_signal <= '1';
+            else
+                irq_signal <= '0';
+            end if;
+        end if;
+    end process;
+
+<span class="ca" data-tooltip="PWM Output - HIGH while period_counter is less than angle_count. The angle_count value sets pulse width, which controls servo position.">6</span>    -- PWM Output: high when period_counter < angle_count
+    pwm_proc: process(clk, reset_n)
+    begin
+        if reset_n = '0' then
+            pwm_out <= '0';
+        elsif rising_edge(clk) then
+            if period_counter < angle_count then
+                pwm_out <= '1';
+            else
+                pwm_out <= '0';
+            end if;
+        end if;
+    end process;
+
+end Behavioral;</code></pre>
+                            </div>
+
+                            <div class="code-content" id="servo-c">
+<pre><code class="language-c">//-------------------------------------------------------------------------
+//-- Ian Woloshyn
+//-- CPET 561 Embedded System Design 1
+//-- Lab 5 C
+//-- March 18th, 2025
+//-------------------------------------------------------------------------
+
+#include "io.h"
+#include &lt;stdio.h&gt;
+#include "system.h"
+#include "alt_types.h"
+#include "sys/alt_irq.h"
+
+typedef unsigned char   uint8;
+typedef unsigned short  uint16;
+typedef unsigned long   uint32;
+
+volatile uint32 min_angle = 46;
+volatile uint32 max_angle = 134;
+volatile uint8  update_display = 0;
+
+uint32 *hex5    = (uint32 *) HEX5_BASE;
+uint32 *hex4    = (uint32 *) HEX4_BASE;
+uint32 *hex2    = (uint32 *) HEX2_BASE;
+uint32 *hex1    = (uint32 *) HEX1_BASE;
+uint32 *hex0    = (uint32 *) HEX0_BASE;
+volatile uint32 *buttons = (uint32 *) PUSHBUTTONS_BASE;
+volatile uint32 *switches= (uint32 *) SWITCHES_BASE;
+uint32 *servo   = (uint32 *) SERVO_CONTROLLER_0_BASE;
+
+// 7-Segment Display map (0-9)
+const uint8 SEGMENT_MAP[10] = {
+    0x40, 0x79, 0x24, 0x30, 0x19,
+    0x12, 0x02, 0x78, 0x00, 0x10
+};
+
+<span class="ca" data-tooltip="angleToDuty() - Maps servo angle in degrees to a 50 MHz clock count for PWM. count = angle x (50000/90) + 25000.">7</span>// Convert angle (degrees) to PWM duty cycle count
+int angleToDuty(int duty) {
+    int count = duty * (50000/90) + 50000/2;
+    return count;
+}
+
+// Display a 3-digit value on 7-seg displays
+void display_angle(uint32 value, uint32 *hundreds, uint32 *tens, uint32 *ones) {
+    uint8 h = (value >= 100);
+    uint8 t = ((value / 10) % 10);
+    uint8 o = value % 10;
+    *ones = SEGMENT_MAP[o];
+    *tens = SEGMENT_MAP[t];
+    if (hundreds) *hundreds = SEGMENT_MAP[h];
+}
+
+<span class="ca" data-tooltip="Interrupt Service Routine (ISR) - Runs when a pushbutton fires an interrupt. Reads the edge-capture register to identify which button was pressed.">8</span>// ISR: Pushbutton updates min/max angle from switch position
+void pushbutton_ISR(void* context) {
+    uint32 button_edge = *(buttons + 3);
+
+    if (button_edge & 0x8) {    // KEY3: set min angle
+        min_angle = *switches;
+    }
+    if (button_edge & 0x4) {    // KEY2: set max angle
+        max_angle = *switches;
+    }
+
+    update_display = 1;
+<span class="ca" data-tooltip="Edge-Capture Clear - Writing 0xFF to register offset +3 clears all pending interrupt flags. Must happen before returning or the ISR immediately re-fires.">9</span>    *(buttons + 3) = 0xFF;  // Clear edge-capture register
+}
+
+// ISR: Servo reached min/max - write new angles to IP core
+void servo_ISR(void* context) {
+    *(servo + 0) = angleToDuty(min_angle);
+    *(servo + 1) = angleToDuty(max_angle);
+}
+
+int main(void) {
+<span class="ca" data-tooltip="HAL ISR Registration - alt_ic_isr_register() binds a C function to a hardware IRQ line via the Nios II HAL interrupt vector table.">10</span>    // Register ISRs
+    alt_ic_isr_register(PUSHBUTTONS_IRQ_INTERRUPT_CONTROLLER_ID,
+                        PUSHBUTTONS_IRQ, pushbutton_ISR, 0, 0);
+    alt_ic_isr_register(SERVO_CONTROLLER_0_IRQ_INTERRUPT_CONTROLLER_ID,
+                        SERVO_CONTROLLER_0_IRQ, servo_ISR, 0, 0);
+
+    // Initialize servo with default angles
+    *(servo + 0) = angleToDuty(min_angle);
+    *(servo + 1) = angleToDuty(max_angle);
+
+    // Initialize displays
+    display_angle(min_angle, NULL, hex5, hex4);
+    display_angle(max_angle, hex2, hex1, hex0);
+
+    // Enable KEY3 and KEY2 interrupts, clear pending
+    *(buttons + 2) = 0x0;
+    *(buttons + 2) |= 0x0C;
+    *(buttons + 3)  = 0xFF;
+
+    while (1) {
+        if (update_display) {
+            display_angle(min_angle, NULL, hex5, hex4);
+            display_angle(max_angle, hex2, hex1, hex0);
+            update_display = 0;
+        }
+    }
+    return 0;
+}</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Capstone: Tennis Ball Project -->
+                <div class="project-card featured">
+                    <div class="project-header">
+                        <h3 class="project-title">Sparrow Systems - FPGA Ball Tracking <span class="badge-inprogress">In Progress</span></h3>
+                        <p class="project-date">2025 – 2026</p>
+                    </div>
+                    <p class="project-course">CPET 563: Embedded Systems Design II - Senior Capstone, RIT</p>
+                    <p class="project-description">Competing as a fictional engineering firm responding to a USTA brief to replace the Hawk-Eye ball tracking system with an FPGA-accelerated alternative. The system uses stereo vision and real-time FPGA image processing on a Xilinx SoC to detect a tennis ball's 3D position and deliver in/out calls with instant replay.</p>
+
+                    <div class="tech-stack">
+                        <span class="tech-badge">Xilinx FPGA</span>
+                        <span class="tech-badge">PYNQ / ARM Cortex-A9</span>
+                        <span class="tech-badge">Stereo Vision</span>
+                        <span class="tech-badge">Computer Vision</span>
+                        <span class="tech-badge">MATLAB</span>
+                        <span class="tech-badge">Blender</span>
+                        <span class="tech-badge">Real-Time DSP</span>
+                    </div>
+
+                    <div class="project-details">
+                        <h4 class="feature-title">System Overview</h4>
+                        <ul class="feature-list">
+                            <li><strong>FPGA pipeline:</strong> Blender-rendered stereo frames streamed to the SoC → FPGA runs grayscale/binarize preprocessing and a fast ball detection algorithm; ambiguous frames route to a CPU-side fallback</li>
+                            <li><strong>3D reconstruction:</strong> stereo triangulation in MATLAB computes real-world ball position from matched left/right camera detections</li>
+                            <li><strong>Deliverables:</strong> static &amp; moving camera accuracy analysis, coefficient of restitution measurement, LED in/out visualization, full serve/volley tracker with instant replay, MATLAB GUI</li>
+                            <li><strong>My role:</strong> FPGA/SoC developer and technical documentation lead - responsible for FPGA image processing pipeline and CDR documentation package</li>
+                        </ul>
+                        <p class="text-tertiary" style="font-style:italic;font-size:13px;margin-top:10px;">CDR (Critical Design Review) deadline: late April / May 2026. Full results post-demo.</p>
+                    </div>
+                </div>
+
+                <!-- PMOS Transistor Fabrication -->
+                <div class="project-card featured">
+                    <div class="project-header">
+                        <h3 class="project-title">PMOS Transistor Fabrication <span class="badge-inprogress">In Progress</span></h3>
+                        <p class="project-date">Spring 2026</p>
+                    </div>
+                    <button class="btn btn-secondary btn-sm code-toggle" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')" style="margin-bottom:12px;">
+                        View Photos
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div style="display:none;margin-bottom:16px;" class="pmos-photos">
+                        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;">
+                            <figure style="margin:0;text-align:center;">
+                                <img src="assets/Wafer.JPG" alt="Silicon wafer" style="width:100%;aspect-ratio:1;object-fit:cover;border-radius:8px;">
+                                <figcaption style="font-size:12px;color:var(--color-text-tertiary);margin-top:4px;">Wafer</figcaption>
+                            </figure>
+                            <figure style="margin:0;text-align:center;">
+                                <img src="assets/Layout.png" alt="Chip layout" style="width:100%;aspect-ratio:1;object-fit:cover;border-radius:8px;">
+                                <figcaption style="font-size:12px;color:var(--color-text-tertiary);margin-top:4px;">Chip Layout</figcaption>
+                            </figure>
+                            <figure style="margin:0;text-align:center;">
+                                <img src="assets/ColorWafer.JPG" alt="Completed wafer" style="width:100%;aspect-ratio:1;object-fit:cover;border-radius:8px;">
+                                <figcaption style="font-size:12px;color:var(--color-text-tertiary);margin-top:4px;">Completed Wafer</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <p class="project-course">Course: MCEE 201 - IC Technology</p>
+                    <p class="project-description">Fabricated PMOS transistors on n-type silicon wafers in the RIT cleanroom, executing the full front-end IC process flow. Characterized each step using a four-point probe, Filmetrics optical tool, and optical profilometer. Process simulations in Silvaco Athena were compared against measured results throughout.</p>
+
+                    <div class="tech-stack">
+                        <span class="tech-badge">Cleanroom</span>
+                        <span class="tech-badge">Photolithography</span>
+                        <span class="tech-badge">Thermal Oxidation</span>
+                        <span class="tech-badge">Boron Diffusion</span>
+                        <span class="tech-badge">Four-Point Probe</span>
+                        <span class="tech-badge">Silvaco Athena</span>
+                        <span class="tech-badge">PMOS</span>
+                    </div>
+
+                    <div class="project-details">
+                        <h4 class="feature-title">Process Steps</h4>
+                        <ul class="feature-list">
+                            <li><strong>Substrate characterization:</strong> four-point probe measured Rs = 78.5 Ω/□ on n-type (100) silicon</li>
+                            <li><strong>Masking oxide:</strong> 6046 Å SiO₂ by steam oxidation; control wafer confirmed boron blocking down to 3454 Å</li>
+                            <li><strong>Photolithography:</strong> ASML stepper patterning + BOE wet etch to open source/drain windows</li>
+                            <li><strong>Boron doping:</strong> B153 spin-on dopant pre-deposition; Rs = 30.88 Ω/□, Xj = 0.71 μm</li>
+                            <li><strong>Drive-in &amp; field oxide:</strong> junction deepened to Xj = 1.03 μm; 5101 Å field oxide grown for isolation</li>
+                            <li><strong>Athena simulation:</strong> TCAD junction depths matched measurements within ~3%; Rs offset attributed to an extra furnace step</li>
+                        </ul>
+
+                        <a href="assets/MCEE_201_Lab_Notebook.pdf" class="btn btn-secondary btn-sm" target="_blank" style="display:inline-flex;align-items:center;gap:6px;margin-top:12px;">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                            Lab Notebook
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Breathing Rate Detection System -->
+                <div class="project-card featured breathing-rate-project">
+                    <div class="project-header">
+                        <h3 class="project-title">Breathing Rate Detection System</h3>
+                        <p class="project-date">December 2024</p>
+                    </div>
+                    <p class="project-course">Course: Digital Signal Processing</p>
+                    <p class="project-description">Built a real-time breathing rate detection system on Arduino interfaced with MATLAB. The signal chain runs through an FIR equalizer, then three parallel IIR filters (5th-order Chebyshev lowpass at 12 BPM, 6th-order bandpass 12–40 BPM, 8th-order highpass at 40 BPM). A running standard-deviation tracker on each band's output classifies breathing rate as low, normal, or high, and drives an audio alarm via a speaker.</p>
+
+                    <div class="tech-stack">
+                        <span class="tech-badge">Arduino</span>
+                        <span class="tech-badge">MATLAB</span>
+                        <span class="tech-badge">IIR Filters</span>
+                        <span class="tech-badge">FIR Equalizer</span>
+                        <span class="tech-badge">Chebyshev</span>
+                        <span class="tech-badge">Real-Time DSP</span>
+                        <span class="tech-badge">Serial I/O</span>
+                    </div>
+
+                    <div class="project-details">
+                        <h4 class="feature-title">System Architecture</h4>
+                        <ul class="feature-list">
+                            <li>FIR equalizer pre-processes the ADC input to flatten the sensor frequency response</li>
+                            <li>Three parallel IIR filter banks: Chebyshev LPF (12 BPM), BPF (12–40 BPM), HPF (40 BPM)</li>
+                            <li>Running statistics (mean, variance, stdev) computed per band with periodic reset</li>
+                            <li>Alarm logic classifies rate as low / normal / high / undetermined and plays tones at 400 Hz, 1000 Hz, or 200 Hz</li>
+                            <li>MATLAB handshake over 115200 baud serial - Arduino reads test vectors from MATLAB, sends back 9-column data stream</li>
+                            <li>Dither averaging over 160 sub-samples for improved ADC resolution</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Other Projects Grid -->
+                <h3 class="section-subtitle mt-xl">Additional Projects</h3>
+                <div class="projects-grid">
+                    
+                    <!-- Sequencer -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">MSP432 Sequencer</h3>
+                            <p class="project-date">April 2023</p>
+                        </div>
+                        <p class="project-course">Course: Microcontroller Systems</p>
+                        <p class="project-description">Built an interactive musical sequencer with MSP432 microcontroller featuring timers, interrupts, ADC, and LED controls for note triggering and tempo adjustment.</p>
+                        <div class="tech-stack">
+                            <span class="tech-badge">MSP432</span>
+                            <span class="tech-badge">Timers</span>
+                            <span class="tech-badge">Interrupts</span>
+                            <span class="tech-badge">ADC</span>
+                            <span class="tech-badge">C Programming</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://ian-woloshyn.github.io/" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">
+                                View Project
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Vending Machine Controller -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Vending Machine Controller</h3>
+                            <p class="project-date">November 2022</p>
+                        </div>
+                        <p class="project-course">Course: Digital System Design</p>
+                        <p class="project-description">Designed and coded a Finite State Machine (FSM) for a vending machine using eight states and a state diagram. Verified functionality through simulation utilizing ModelSim, tested on the DE0-CV board.</p>
+                        <div class="tech-stack">
+                            <span class="tech-badge">VHDL</span>
+                            <span class="tech-badge">FSM</span>
+                            <span class="tech-badge">ModelSim</span>
+                            <span class="tech-badge">FPGA</span>
+                            <span class="tech-badge">State Machines</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Connect 4 -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Connect 4 Game</h3>
+                            <p class="project-date">March 2022</p>
+                        </div>
+                        <p class="project-course">Course: Computational Problem Solving I</p>
+                        <p class="project-description">Developed a Connect 4 game in C++ using loops, functions, and arrays/vectors. Implemented game logic, win detection algorithms, and user interface for two-player gameplay.</p>
+                        <div class="tech-stack">
+                            <span class="tech-badge">C++</span>
+                            <span class="tech-badge">Algorithms</span>
+                            <span class="tech-badge">Data Structures</span>
+                            <span class="tech-badge">Game Logic</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                
+                <!-- Hardware Skills -->
+                <h3 class="skill-category-title">Hardware</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <svg class="skill-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="4" y="4" width="16" height="16" rx="1"></rect>
+                            <line x1="4" y1="8" x2="20" y2="8"></line>
+                            <line x1="4" y1="12" x2="20" y2="12"></line>
+                            <line x1="4" y1="16" x2="20" y2="16"></line>
+                            <line x1="8" y1="4" x2="8" y2="20"></line>
+                            <line x1="12" y1="4" x2="12" y2="20"></line>
+                            <line x1="16" y1="4" x2="16" y2="20"></line>
+                        </svg>
+                        <h4 class="skill-label">FPGA</h4>
+                    </div>
+
+                    <div class="skill-item">
+                        <svg class="skill-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+                            <rect x="9" y="9" width="6" height="6"></rect>
+                            <line x1="9" y1="1" x2="9" y2="4"></line>
+                            <line x1="15" y1="1" x2="15" y2="4"></line>
+                            <line x1="9" y1="20" x2="9" y2="23"></line>
+                            <line x1="15" y1="20" x2="15" y2="23"></line>
+                            <line x1="20" y1="9" x2="23" y2="9"></line>
+                            <line x1="20" y1="14" x2="23" y2="14"></line>
+                            <line x1="1" y1="9" x2="4" y2="9"></line>
+                            <line x1="1" y1="14" x2="4" y2="14"></line>
+                        </svg>
+                        <h4 class="skill-label">Embedded Systems</h4>
+                    </div>
+
+                    <div class="skill-item">
+                        <svg class="skill-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="7" cy="7" r="3"></circle>
+                            <circle cx="17" cy="17" r="3"></circle>
+                            <path d="M10 8l4 8M14 8l-4 8"></path>
+                        </svg>
+                        <h4 class="skill-label">FSMs</h4>
+                    </div>
+
+                    <div class="skill-item">
+                        <svg class="skill-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                        </svg>
+                        <h4 class="skill-label">Interrupts</h4>
+                    </div>
+
+                    <div class="skill-item">
+                        <svg class="skill-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="5" y="5" width="14" height="14" rx="2"></rect>
+                            <circle cx="12" cy="12" r="3"></circle>
+                            <line x1="2" y1="9" x2="5" y2="9"></line>
+                            <line x1="2" y1="15" x2="5" y2="15"></line>
+                            <line x1="19" y1="9" x2="22" y2="9"></line>
+                            <line x1="19" y1="15" x2="22" y2="15"></line>
+                        </svg>
+                        <h4 class="skill-label">Microcontrollers</h4>
+                    </div>
+
+                    <div class="skill-item">
+                        <svg class="skill-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="8"></circle>
+                            <polyline points="12 6 12 12 15.5 15.5"></polyline>
+                            <circle cx="12" cy="12" r="1"></circle>
+                        </svg>
+                        <h4 class="skill-label">ADC/Timers</h4>
+                    </div>
+
+                    <div class="skill-item">
+                        <svg class="skill-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                        </svg>
+                        <h4 class="skill-label">Testbenches</h4>
+                    </div>
+
+                    <div class="skill-item">
+                        <svg class="skill-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h3l2-7 4 14 2-7h3"></path>
+                            <circle cx="5" cy="12" r="1"></circle>
+                            <circle cx="19" cy="12" r="1"></circle>
+                        </svg>
+                        <h4 class="skill-label">Circuits</h4>
+                    </div>
+
+                    <div class="skill-item">
+                        <svg class="skill-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="6" width="20" height="12" rx="2"></rect>
+                            <line x1="6" y1="10" x2="6" y2="14"></line>
+                            <line x1="10" y1="10" x2="10" y2="14"></line>
+                            <line x1="14" y1="10" x2="14" y2="14"></line>
+                            <line x1="18" y1="10" x2="18" y2="14"></line>
+                        </svg>
+                        <h4 class="skill-label">PLCs</h4>
+                    </div>
+                </div>
+
+                <!-- Software Skills -->
+                <h3 class="skill-category-title">Software</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <svg class="skill-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                        <h4 class="skill-label">C/C++</h4>
+                    </div>
+
+                    <div class="skill-item">
+                        <svg class="skill-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="4 17 10 11 4 5"></polyline>
+                            <line x1="12" y1="19" x2="20" y2="19"></line>
+                        </svg>
+                        <h4 class="skill-label">VHDL</h4>
+                    </div>
+
+                    <div class="skill-item">
+                        <svg class="skill-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 3v18h18"></path>
+                            <path d="M7 16l3-8 3 8 4-12"></path>
+                        </svg>
+                        <h4 class="skill-label">MATLAB</h4>
+                    </div>
+
+                    <div class="skill-item">
+                        <svg class="skill-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2C8.13 2 5 5.13 5 9c0 1.74.63 3.34 1.68 4.58L12 21l5.32-7.42C18.37 12.34 19 10.74 19 9c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"></path>
+                        </svg>
+                        <h4 class="skill-label">Python</h4>
+                    </div>
+
+                    <div class="skill-item">
+                        <svg class="skill-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h4v4H4zM10 4h4v4h-4zM16 4h4v4h-4zM4 10h4v4H4zM10 10h4v4h-4zM16 10h4v4h-4zM4 16h4v4H4zM10 16h4v4h-4zM16 16h4v4h-4z"></path>
+                        </svg>
+                        <h4 class="skill-label">Assembly</h4>
+                    </div>
+
+                    <div class="skill-item">
+                        <svg class="skill-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+                            <path d="M7 7h.01M7 12h10M7 17h10"></path>
+                        </svg>
+                        <h4 class="skill-label">Linux</h4>
+                    </div>
+
+                    <div class="skill-item">
+                        <svg class="skill-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="9"></circle>
+                            <path d="M12 3v9l4 2"></path>
+                            <circle cx="12" cy="12" r="1"></circle>
+                        </svg>
+                        <h4 class="skill-label">Real-Time OS</h4>
+                    </div>
+
+                    <div class="skill-item">
+                        <svg class="skill-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"></path>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                        </svg>
+                        <h4 class="skill-label">DSP</h4>
+                    </div>
+
+                    <div class="skill-item">
+                        <svg class="skill-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="4" y1="6" x2="20" y2="6"></line>
+                            <line x1="4" y1="12" x2="20" y2="12"></line>
+                            <line x1="4" y1="18" x2="20" y2="18"></line>
+                            <line x1="8" y1="4" x2="8" y2="8"></line>
+                            <line x1="16" y1="4" x2="16" y2="8"></line>
+                            <line x1="8" y1="16" x2="8" y2="20"></line>
+                            <line x1="16" y1="16" x2="16" y2="20"></line>
+                        </svg>
+                        <h4 class="skill-label">Ladder Logic</h4>
+                    </div>
+
+                    <div class="skill-item">
+                        <svg class="skill-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                            <circle cx="8" cy="10" r="1"></circle>
+                            <circle cx="16" cy="10" r="1"></circle>
+                        </svg>
+                        <h4 class="skill-label">HMI Design</h4>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <h3 class="skill-category-title">Professional Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <svg class="skill-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                        <h4 class="skill-label">Leadership</h4>
+                    </div>
+
+                    <div class="skill-item">
+                        <svg class="skill-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                        <h4 class="skill-label">Teamwork</h4>
+                    </div>
+
+                    <div class="skill-item">
+                        <svg class="skill-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                        <h4 class="skill-label">Communication</h4>
+                    </div>
+
+                    <div class="skill-item">
+                        <svg class="skill-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="12" y1="8" x2="12" y2="12"></line>
+                            <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                        </svg>
+                        <h4 class="skill-label">Problem-Solving</h4>
+                    </div>
+
+                    <div class="skill-item">
+                        <svg class="skill-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                        </svg>
+                        <h4 class="skill-label">Critical Thinking</h4>
+                    </div>
+
+                    <div class="skill-item">
+                        <svg class="skill-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 11l3 3L22 4"></path>
+                            <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"></path>
+                        </svg>
+                        <h4 class="skill-label">Project Management</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Community Engagement Section -->
+        <section id="community" class="section">
+            <div class="container">
+                <h2 class="section-title">Community Engagement & Achievements</h2>
+                <div class="community-grid">
+                    <div class="community-card">
+                        <div class="community-header">
+                            <h3 class="community-title">Scouts BSA - Eagle Scout</h3>
+                            <p class="community-period">September 2009 - May 2021</p>
+                        </div>
+                        <p class="community-description">Achieved the rank of Eagle Scout, demonstrating leadership, teamwork, and outdoor skills through hands-on activities and service projects. Developed strong character and values through community service and personal growth experiences.</p>
+                        <div class="achievement-badge">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="8" r="7"></circle>
+                                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                            </svg>
+                            <span>Eagle Scout</span>
+                        </div>
+                    </div>
+                    
+                    <div class="community-card">
+                        <div class="community-header">
+                            <h3 class="community-title">Pawsafe Animal Rescue</h3>
+                            <p class="community-period">October 2020 - August 2021</p>
+                        </div>
+                        <p class="community-description">Helped shelter and find homes for sick, injured, abused and abandoned dogs and puppies. Provided compassionate care and support for animals in need while connecting them with loving families.</p>
+                    </div>
+
+                    <div class="community-card">
+                        <div class="community-header">
+                            <h3 class="community-title">Dean's List</h3>
+                            <p class="community-period">Rochester Institute of Technology</p>
+                        </div>
+                        <p class="community-description">Recognized for academic excellence with placement on the Dean's List, maintaining a 3.5 GPA while pursuing a challenging Computer Engineering curriculum.</p>
+                        <div class="achievement-badge">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                            </svg>
+                            <span>Academic Achievement</span>
+                        </div>
+                    </div>
+
+                    <div class="community-card hobbies-card">
+                        <div class="community-header">
+                            <h3 class="community-title">Hobbies & Interests</h3>
+                        </div>
+                        <p class="community-description">Outside of engineering, I play golf and hockey, and stay active through lifting, camping, and hiking. I play chess casually online and do some photography. I built my own PC and tinker with microcontrollers outside of coursework - which is part of what got me into this field. I am also genuinely interested in urban design and walkable cities - how streets, transit, and density shape the way people actually live in a place.</p>
+                        <div class="hobbies-list">
+                            <span class="hobby-tag">Golf</span>
+                            <span class="hobby-tag">Hockey</span>
+                            <span class="hobby-tag">Fitness</span>
+                            <span class="hobby-tag">Camping & Hiking</span>
+                            <span class="hobby-tag">Chess</span>
+                            <span class="hobby-tag">Photography</span>
+                            <span class="hobby-tag">PC Building</span>
+                            <span class="hobby-tag">Urban Design</span>
+                            <span class="hobby-tag">Walkable Cities</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container-narrow">
+                <h2 class="section-title">Let's Connect</h2>
+                <div class="contact-card">
+                    <p class="contact-intro">Open to full-time roles in embedded systems, FPGA development, and hardware/software engineering.</p>
+                    
+                    <div class="contact-info">
+                        <a href="mailto:ijw5387@rit.edu" class="contact-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            ijw5387@rit.edu
+                        </a>
+                        
+                        <a href="tel:+19145395450" class="contact-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            (914) 539-5450
+                        </a>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/ian-woloshyn" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ian-woloshyn-266864262/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Ian J. Woloshyn. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/ian-woloshyn-266864262/" class="footer-link" target="_blank" rel="noopener noreferrer">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    LinkedIn
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
