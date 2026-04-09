@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ian Woloshyn - Course Notes for CPET, EEET, and MCEE">
+    <title>Course Notes | Ian J. Woloshyn</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/notes.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Ian Woloshyn</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+                <li><a href="index.html#skills" class="nav-link">Skills</a></li>
+                <li><a href="notes.html" class="nav-link active">Notes</a></li>
+                <li><a href="index.html#contact" class="nav-link nav-link-cta">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="notes-main">
+        <!-- Header -->
+        <section class="notes-header">
+            <div class="container">
+                <h1 class="notes-page-title">Course Notes</h1>
+                <p class="notes-page-subtitle">CPET / EEET / MCEE - Computer Engineering Technology</p>
+
+                <!-- Search -->
+                <div class="search-container">
+                    <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <input type="text" id="searchInput" class="search-input" placeholder="Search notes (e.g. &quot;RTOS&quot;, &quot;Lab 3&quot;, &quot;FSM&quot;)...">
+                    <button id="clearSearch" class="search-clear" aria-label="Clear search" style="display:none;">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Department tabs -->
+                <div class="dept-tabs">
+                    <button class="dept-tab active" data-dept="all">All</button>
+                    <button class="dept-tab" data-dept="CPET">CPET</button>
+                    <button class="dept-tab" data-dept="EEET">EEET</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Course Notes Browser -->
+        <section class="notes-section">
+            <div class="container">
+                <div id="notesBrowser" class="notes-browser">
+                    <!-- Populated by JS -->
+                </div>
+                <div id="noResults" class="no-results" style="display:none;">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <p>No notes found matching your search.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Ian J. Woloshyn. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/ian-woloshyn-266864262/" class="footer-link" target="_blank" rel="noopener noreferrer">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    LinkedIn
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/notes-data.js"></script>
+    <script src="js/notes.js"></script>
+</body>
+</html>
