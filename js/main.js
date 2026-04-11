@@ -280,4 +280,47 @@
         });
     });
 
+    // ============================================
+    // Fullscreen Code Viewer
+    // ============================================
+    var fsOverlay = document.createElement('div');
+    fsOverlay.className = 'code-fullscreen';
+    fsOverlay.style.display = 'none';
+
+    var fsClose = document.createElement('button');
+    fsClose.className = 'code-fullscreen-close';
+    fsClose.textContent = 'Close (Esc)';
+    fsClose.onclick = function() {
+        fsOverlay.style.display = 'none';
+        document.body.style.overflow = '';
+    };
+    fsOverlay.appendChild(fsClose);
+
+    var fsContent = document.createElement('div');
+    fsOverlay.appendChild(fsContent);
+    document.body.appendChild(fsOverlay);
+
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && fsOverlay.style.display !== 'none') {
+            fsOverlay.style.display = 'none';
+            document.body.style.overflow = '';
+        }
+    });
+
+    document.querySelectorAll('.code-section').forEach(function(section) {
+        var btn = document.createElement('button');
+        btn.className = 'btn btn-secondary btn-sm code-expand-btn';
+        btn.textContent = 'Expand';
+        btn.onclick = function() {
+            var activePre = section.querySelector('.code-content.active pre');
+            if (activePre) {
+                fsContent.innerHTML = '';
+                fsContent.appendChild(activePre.cloneNode(true));
+                fsOverlay.style.display = 'block';
+                document.body.style.overflow = 'hidden';
+            }
+        };
+        section.insertBefore(btn, section.firstChild);
+    });
+
 })();
